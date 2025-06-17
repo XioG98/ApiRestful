@@ -15,12 +15,12 @@ const schemaProducto = new mongoose.Schema({
     },
     precio: {
         type: Number,
-        defaul: [0, 'El precio por defecto es cero'],
+        default: [0, 'El precio por defecto es cero'],
         min: [0, 'El precio mínimo es cero'],
-    },
+    }, 
     stock: {
         type: Number,
-        defaul: [0, 'El stock por defecto es cero'],
+        default: [0, 'El stock por defecto es cero'],
         min: [0, 'El stock mínimo es cero'],
     },
     imagen: {
